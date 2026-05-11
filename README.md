@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hotel Bookings Dashboard
 
 A multi-page interactive dashboard built with **Dash** and **Plotly**, analyzing hotel booking cancellations and trends.
@@ -15,21 +14,23 @@ dashboard/
 │   ├── overview.py        # Page 1: KPIs and overview charts
 │   ├── trends.py          # Page 2: Seasonal & booking trends
 │   └── cancellation_analysis.py  # Page 3: Deep-dive analysis
-└── README.md
+├── hotel_bookings.csv
+├── hotel_bookings.ipynb
+└── hotel_bookings_story_and_insights.ipynb
 ```
 
 ## Setup & Run
 
 1. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r dashboard/requirements.txt
 ```
 
 2. Make sure `hotel_bookings.csv` is in the `dashboard/` project root (same folder as `app.py`).
 
 3. Run the app:
 ```bash
-python app.py
+python dashboard/app.py
 ```
 
 4. Open your browser at: [http://127.0.0.1:8050](http://127.0.0.1:8050)
