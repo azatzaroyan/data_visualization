@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hotel Bookings Dashboard
 
 A multi-page interactive dashboard built with **Dash** and **Plotly**, analyzing hotel booking cancellations and trends.
